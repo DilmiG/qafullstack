@@ -13,6 +13,7 @@ tags {
 Name = "Dilmiweb"
 }
 }
+#####################
 output "instance_ips"
 {
 value = ["${aws_instance.Rukshanweb3.*.public_ip}"]
